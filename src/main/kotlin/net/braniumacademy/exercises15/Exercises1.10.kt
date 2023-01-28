@@ -3,8 +3,7 @@ package net.braniumacademy.exercises15
 fun String.countDigits(): Int {
     var counter = 0
     for (c in this) {
-        val character = c.uppercase()[0]
-        if (character in '0'..'9') {
+        if (c in '0'..'9') {
             counter++
         }
     }

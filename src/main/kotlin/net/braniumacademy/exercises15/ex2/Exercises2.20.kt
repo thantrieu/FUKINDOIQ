@@ -1,6 +1,6 @@
 package net.braniumacademy.exercises15.ex2
 
-// hàm tìm vị trí phần tử đầu tiên có giá trị bằng k
+// hàm tìm vị trí các phần tử có giá trị bằng k
 fun Array<Int>.allIndexOf(k: Int) {
     var counter = 0
     for (index in indices) { // xét trong tập chỉ số hợp lệ của mảng
